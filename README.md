@@ -34,14 +34,14 @@ Steps to run jar file:
 5. Now, to get output for specific friends pair say 0,4 type the following command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "0,4<press Ctrl+v tab>"
 You will get output as : 0,4	8,14,15,18,27,72,80,74,77
 6. Similarly to get output for:
-20,22939 	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "20,22939<press Ctrl+v tab>" . 
-Output : 20,22939	1,5
-1,29826 	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "1,29826<press Ctrl+v tab>". 
-Output : 1,29826	
-6222,19272	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "6222,19272<press Ctrl+v tab>" . 
-Output : 6222,19272	19263,19280,19281,19282
-28041,28056	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "28041,28056<press Ctrl+v tab>" . 
-Output : 28041,28056	6245,28054,28061
+<br/>20,22939 	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "20,22939<press Ctrl+v tab>" . 
+<br/>Output : 20,22939	1,5
+<br/>1,29826 	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "1,29826<press Ctrl+v tab>". 
+<br/>Output : 1,29826	
+<br/>6222,19272	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "6222,19272<press Ctrl+v tab>" . 
+<br/>Output : 6222,19272	19263,19280,19281,19282
+<br/>28041,28056	type the command: hdfs dfs -cat /user/krupali/output1/part-r-00000 | grep "28041,28056<press Ctrl+v tab>" . 
+<br/>Output : 28041,28056	6245,28054,28061
 
 Note: Since the output from reducer is seperated by TAB press Ctrl+v and tab to get tab key value when using grep command. Not following this note might not give you output.
 
