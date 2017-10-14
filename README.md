@@ -89,7 +89,7 @@ user_id': (unique user identifier),
 NB: :: is Column separator in the files.
 List the business_id, full address and categories of the Top 10 businesses using the average ratings.
 This will require you to use review.csv and business.csv files.
-Please use reduce side join and job chaining technique to answer this problem.
+  Please use ```diff reduce side join ```and ```diff job chaining technique  ``` to answer this problem.
 
 <b>Sample output:
 businessid      full address  categories                                avg rating </b>
@@ -115,7 +115,7 @@ Use Yelp Dataset
 List the 'user id' and 'rating' of users that reviewed businesses located in “Palo Alto”
 Required files are 'business' and 'review'.
 
-Please use In Memory Join technique to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
+Please use ```diff  In Memory Join technique  ```to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
 
 Sample output
  
