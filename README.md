@@ -89,7 +89,7 @@ user_id': (unique user identifier),
 NB: :: is Column separator in the files.
 List the business_id, full address and categories of the Top 10 businesses using the average ratings.
 This will require you to use review.csv and business.csv files.
-  Please use - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+reduce side join) `#f03c15` and ```diff job chaining technique  ``` to answer this problem.
+  Please use <font color="red">reduce side join </font> and <font color="red">job chaining technique </font> to answer this problem.
 
 <b>Sample output:
 businessid      full address  categories                                avg rating </b>
