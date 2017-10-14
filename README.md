@@ -93,7 +93,7 @@ This will require you to use review.csv and business.csv files.
 
 <b>Sample output:
 businessid      full address  categories                                avg rating </b>
-xdf12344444444, CA 91711      List['Local Services', 'Carpet Cleaning'] 5.0
+  xdf12344444444, CA 91711      List['Local Services', 'Carpet Cleaning'] 5.0
 
 
 
@@ -116,12 +116,12 @@ List the 'user id' and 'rating' of users that reviewed businesses located in “
 Required files are 'business' and 'review'.
 
 Please use ```diff  
-In Memory Join technique  ```to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
+- In Memory Join technique  ```to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
 
 Sample output
  
 User id                Rating
-0WaCdhr3aXb0G0niwTMGTg 4.0
+  0WaCdhr3aXb0G0niwTMGTg 4.0
 ## Steps to run Question 4 :
 File: Question4.jar
 
