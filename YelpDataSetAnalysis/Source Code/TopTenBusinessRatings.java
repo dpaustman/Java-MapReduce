@@ -20,6 +20,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
+//Calculate top ten business ratings
 public class TopTenBusinessRatings {
 
 	public static class Rating_Map extends Mapper<LongWritable, Text, Text, DoubleWritable> {
