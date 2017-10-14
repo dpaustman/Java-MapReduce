@@ -45,7 +45,7 @@ You will get output as : 0,4	8,14,15,18,27,72,80,74,77
 
 Note: Since the output from reducer is seperated by TAB press Ctrl+v and tab to get tab key value when using grep command. Not following this note might not give you output.
 
-## Question 2: 
+## Question 2: TopTenMutual Friends
 
 Please answer this question by using dataset from Question 1.
 Find friend pairs whose common friend number are within the top-10 in all the pairs. Please output them in decreasing order.
