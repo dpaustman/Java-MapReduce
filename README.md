@@ -87,10 +87,10 @@ user_id': (unique user identifier),
 'name': (first name, last initial, like 'Matt J.'), this column has been made anonymous to preserve privacy
 'url': url of the user on yelp
 NB: :: is Column separator in the files.  
-  
+</p>  
 List the business_id, full address and categories of the Top 10 businesses using the average ratings.  
 This will require you to use review.csv and business.csv files.  
-  Please use <font color="red">reduce side join </font> and <font color="red">job chaining technique </font> to answer this problem.
+  Please use <b>reduce side join </b> and <b>job chaining technique </b> to answer this problem.
 
 <b>Sample output:
 businessid      full address  categories                                avg rating  </b>  
@@ -120,8 +120,8 @@ Please use <b>In Memory Join</b> technique to answer this problem. Hint: Please 
 
 Sample output
  
-User id                Rating  
-0WaCdhr3aXb0G0niwTMGTg 4.0
+<b>User id                Rating  </b>   
+0WaCdhr3aXb0G0niwTMGTg        4.0
 ## Steps to run Question 4 :
 File: Question4.jar
 
