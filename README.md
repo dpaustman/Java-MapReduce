@@ -65,14 +65,14 @@ Steps to run jar file:
 ========================================================================
 ## Question 3: Yelp DataSet Analysis
 
-In this question, you will apply Hadoop map-reduce to derive some statistics from Yelp Dataset.
+In this question, you will apply Hadoop map-reduce to derive some statistics from Yelp Dataset.  
 ------------------ Data set Info -------------------------------------------------------------- 
-The dataset files are as follows and columns are separated using ‘::’ business.csv.
-review.csv.
-user.csv.
-Dataset Description.
-
-  The dataset comprises of three csv files, namely user.csv, business.csv and review.csv.
+The dataset files are as follows and columns are separated using ‘::’ business.csv.  
+review.csv.  
+user.csv.  
+Dataset Description.  
+<p align="justify">
+The dataset comprises of three csv files, namely user.csv, business.csv and review.csv.  
 Business.csv file contain basic information about local businesses. Business.csv file contains the following columns "business_id"::"full_address"::"categories"
 'business_id': (a unique identifier for the business) 'full_address': (localized address),
 'categories': [(localized category names)]
@@ -86,14 +86,15 @@ user.csv file contains aggregate information about a single user across all of Y
 user_id': (unique user identifier),
 'name': (first name, last initial, like 'Matt J.'), this column has been made anonymous to preserve privacy
 'url': url of the user on yelp
-NB: :: is Column separator in the files.
-List the business_id, full address and categories of the Top 10 businesses using the average ratings.
-This will require you to use review.csv and business.csv files.
+NB: :: is Column separator in the files.  
+  
+List the business_id, full address and categories of the Top 10 businesses using the average ratings.  
+This will require you to use review.csv and business.csv files.  
   Please use <font color="red">reduce side join </font> and <font color="red">job chaining technique </font> to answer this problem.
 
 <b>Sample output:
-businessid      full address  categories                                avg rating </b>
-  xdf12344444444, CA 91711      List['Local Services', 'Carpet Cleaning'] 5.0
+businessid      full address  categories                                avg rating  </b>  
+xdf12344444444, CA 91711      List['Local Services', 'Carpet Cleaning'] 5.0
 
 
 
@@ -115,12 +116,12 @@ Use Yelp Dataset
 List the 'user id' and 'rating' of users that reviewed businesses located in “Palo Alto”
 Required files are 'business' and 'review'.
 
-Please use In Memory Join technique to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
+Please use <b>In Memory Join</b> technique to answer this problem. Hint: Please load all data in business.csv file into the distributed cache.
 
 Sample output
  
-User id                Rating
-  0WaCdhr3aXb0G0niwTMGTg 4.0
+User id                Rating  
+0WaCdhr3aXb0G0niwTMGTg 4.0
 ## Steps to run Question 4 :
 File: Question4.jar
 
