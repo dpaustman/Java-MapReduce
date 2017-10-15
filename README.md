@@ -66,7 +66,7 @@ Steps to run jar file:
 ## Question 3: Yelp DataSet Analysis
 
 In this question, you will apply Hadoop map-reduce to derive some statistics from Yelp Dataset.  
------------------- Data set Info -------------------------------------------------------------- 
+------------------------------------- Data set Info -------------------------------------------   
 The dataset files are as follows and columns are separated using ‘::’ business.csv.  
 review.csv.  
 user.csv.  
@@ -90,7 +90,7 @@ NB: :: is Column separator in the files.
 </p>  
 List the business_id, full address and categories of the Top 10 businesses using the average ratings.  
 This will require you to use review.csv and business.csv files.  
-  Please use <b>reduce side join </b> and <b>job chaining technique </b> to answer this problem.
+  Please use <b>reduce side join and job chaining technique </b> to answer this problem.
 
 <b>Sample output:
 businessid      full address  categories                                avg rating  </b>  
@@ -107,7 +107,7 @@ Steps to run jar file:
 1. From the terminal go inside YelpDataSetAnalysis folder
 2. Delete output directory - "/user/krupali/output3_1" and "/user/krupali/output3_2" if it already exists
 3. Type the following command:  hadoop jar TopTenBusinessRatings.jar TopTenBusinessRatings /user/krupali/input/review.csv /user/krupali/output3_1 /user/krupali/input/business.csv /user/krupali/output3_2
-4. Output is at : //user/krupali/output3_2/part-r-00000
+4. Output is at : /user/krupali/output3_2/part-r-00000
 
 
 ## Question 4:
@@ -120,7 +120,7 @@ Please use <b>In Memory Join</b> technique to answer this problem. Hint: Please 
 
 Sample output
  
-<b>User id                Rating  </b>   
+<b>User id                Rating  </b>  
 0WaCdhr3aXb0G0niwTMGTg        4.0
 ## Steps to run Question 4 :
 File: Question4.jar
